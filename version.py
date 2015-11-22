@@ -1,0 +1,8 @@
+MAJOR = 3
+MINOR = 6
+BUILD = 3
+
+RELEASE = "BETA"
+PROJECT_ID = "27000d60d1768c38"
+
+VERSION_STRING = str(MAJOR)+"."+str(MINOR)+"."+str(BUILD)+" "+RELEASE.lower()

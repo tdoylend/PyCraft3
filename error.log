@@ -1,0 +1,466 @@
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    screen = pygame.display.set_mode(SCREEN_SIZE,FULLSCREEN|HWSURFACE|OPENGL|DOUBLEBUF)
+pygame.error: No video mode large enough for 1680x1050
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 127, in getFile
+    logdata("They loaded the world named '"+world_name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 114, in getFile
+    logdata("They named it '"+name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 127, in getFile
+    logdata("They loaded the world named '"+world_name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+TypeError: generateRandomMap() takes no arguments (1 given)
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 15, in generateRandomMap
+NameError: global name 'GSZ' is not defined
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 23, in generateRandomMap
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 12, in generateRandomMap
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 12, in generateRandomMap
+TypeError: unsupported operand type(s) for /: 'tuple' and 'float'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 127, in getFile
+    logdata("They loaded the world named '"+world_name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 120, in getFile
+    exec open("generators/"+gen+".py").read()
+  File "<string>", line 36
+    Leaves((xv+1,x[xv]+y[yv]+3,yv+1),world,recompile=False)'
+                                                           ^
+SyntaxError: EOL while scanning string literal
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 26, in generateRandomMap
+NameError: global name 'TreeTrunk' is not defined
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 414, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 29, in generateRandomMap
+NameError: global name 'Leaves' is not defined
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 130, in getFile
+    parseMap(world,world_data)
+  File "<string>", line 29, in parseMap
+  File "<string>", line 54, in __init__
+  File "<string>", line 1122, in render
+AttributeError: Water instance has no attribute 'on'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 130, in getFile
+    parseMap(world,world_data)
+  File "<string>", line 29, in parseMap
+  File "<string>", line 54, in __init__
+  File "<string>", line 1123, in render
+AttributeError: Water instance has no attribute 'on'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 119, in getFile
+    logdata("They used the generator '"+gen+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 483, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 215, in remote_start
+    runQuit(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 101, in runQuit
+    world.save()
+  File "<string>", line 287, in save
+IOError: [Errno 2] No such file or directory: "worlds/llllllllllllllllllllllllllllllllllllllllllllll/''''''''"
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 8, in generateRandomMap
+UnboundLocalError: local variable 'y' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 127, in getFile
+    logdata("They loaded the world named '"+world_name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 120, in getFile
+    exec open("generators/"+gen+".py").read()
+  File "<string>", line 6
+    if z==0 or z==GSZ-1 or x==0 or x==GSZ-1 or y==0 or y==GSZ-1:   
+     ^
+IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 483, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 293, in remote_start
+    world.updateOneRandomBlock()
+  File "<string>", line 431, in updateOneRandomBlock
+AttributeError: Water instance has no attribute 'on_dynamic_update'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 416, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 127, in getFile
+    logdata("They loaded the world named '"+world_name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 492, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 302, in remote_start
+    world.updateOneRandomBlock()
+  File "<string>", line 433, in updateOneRandomBlock
+  File "<string>", line 206, in on_dynamic_update
+NameError: global name 'world' is not defined
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 492, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 289, in remote_start
+    world.render()
+  File "<string>", line 479, in render
+  File "<string>", line 225, in render
+AttributeError: Chemicals instance has no attribute 'burmode'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 492, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 302, in remote_start
+    world.updateOneRandomBlock()
+  File "<string>", line 433, in updateOneRandomBlock
+  File "<string>", line 218, in on_dynamic_update
+UnboundLocalError: local variable 'y' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 492, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 302, in remote_start
+    world.updateOneRandomBlock()
+  File "<string>", line 433, in updateOneRandomBlock
+  File "<string>", line 233, in on_dynamic_update
+AttributeError: 'NoneType' object has no attribute 'index'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 492, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 302, in remote_start
+    world.updateOneRandomBlock()
+  File "<string>", line 433, in updateOneRandomBlock
+  File "<string>", line 233, in on_dynamic_update
+AttributeError: 'NoneType' object has no attribute 'index'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 492, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 302, in remote_start
+    world.updateOneRandomBlock()
+  File "<string>", line 433, in updateOneRandomBlock
+  File "<string>", line 240, in on_dynamic_update
+AttributeError: 'NoneType' object has no attribute 'index'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 7, in <module>
+    import master
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 410
+    world.particles.append(SimpleParticle(world,
+    ^
+IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 491, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 299, in remote_start
+    particle.render()
+  File "<string>", line 45, in render
+TypeError: this function takes 2 arguments (4 given)
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 491, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 299, in remote_start
+    particle.render()
+  File "<string>", line 46, in render
+TypeError: this function takes 2 arguments (4 given)
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 491, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 300, in remote_start
+    glEnd()
+  File "C:\Python27\lib\site-packages\OpenGL\latebind.py", line 61, in __call__
+    return self.wrapperFunction( self.baseFunction, *args, **named )
+  File "C:\Python27\lib\site-packages\OpenGL\GL\exceptional.py", line 57, in glEnd
+    return baseFunction( )
+  File "C:\Python27\lib\site-packages\OpenGL\error.py", line 208, in glCheckError
+    baseOperation = baseOperation,
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = 'invalid operation',
+	baseOperation = glEnd,
+	cArguments = ()
+)
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 7, in <module>
+    import master
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 32, in <module>
+    exec open("particles.py","r").read()
+  File "<string>", line 3, in <module>
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\blocks.py", line 1, in <module>
+    pygame.mixer.init(channels=64)
+NameError: name 'pygame' is not defined
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 488, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 298, in remote_start
+    particle.update()
+  File "<string>", line 33, in update
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 7, in <module>
+    import master
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 410
+    world.particles.append(SimpleParticle(world,,
+                                                ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 424, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 114, in getFile
+    logdata("They named it '"+name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 424, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 127, in getFile
+    logdata("They loaded the world named '"+world_name+"'.")
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 491, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 299, in remote_start
+    particle.render()
+  File "<string>", line 46, in render
+AttributeError: ExplosionParticle instance has no attribute 'abscolor'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 491, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 215, in remote_start
+    runQuit(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 101, in runQuit
+    world.save()
+  File "<string>", line 289, in save
+IOError: [Errno 22] invalid mode ('w') or filename: 'worlds/YOU ******** !!!!!'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 491, in remote_main
+    remote_start(world,tex_dict)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 215, in remote_start
+    runQuit(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 101, in runQuit
+    world.save()
+  File "<string>", line 289, in save
+IOError: [Errno 22] invalid mode ('w') or filename: 'worlds/YOU ******** !!!'
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 424, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 8, in generateRandomMap
+NameError: global name 'OpenSimplex' is not defined
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 424, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 8, in generateRandomMap
+NameError: global name 'OpenSimplex' is not defined
+Traceback (most recent call last):
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 424, in remote_main
+    getFile(world)
+  File "C:\Documents and Settings\Owner\Desktop\Katherine's stuff\PyCraft\Release\master.py", line 121, in getFile
+    generateRandomMap(world)
+  File "<string>", line 8, in generateRandomMap
+NameError: global name 'OpenSimplex' is not defined
+Traceback (most recent call last):
+  File "J:\Downloads\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "J:\Downloads\PyCraft\Release\master.py", line 426, in remote_main
+    getFile(world)
+  File "J:\Downloads\PyCraft\Release\master.py", line 122, in getFile
+    generateRandomMap(world)
+  File "<string>", line 12, in generateRandomMap
+NameError: global name 'o' is not defined
+Traceback (most recent call last):
+  File "J:\Downloads\PyCraft\Release\Launch PyCraft.pyw", line 24, in <module>
+    master.remote_main()
+  File "J:\Downloads\PyCraft\Release\master.py", line 426, in remote_main
+    getFile(world)
+  File "J:\Downloads\PyCraft\Release\master.py", line 122, in getFile
+    generateRandomMap(world)
+  File "<string>", line 18, in generateRandomMap
+TypeError: noise2d() takes exactly 3 arguments (4 given)
+Traceback (most recent call last):
+  File "E:\Downloads\PyCraft\Release\Launch PyCraft.py", line 4, in <module>
+    import easygui
+ImportError: No module named easygui
+Traceback (most recent call last):
+  File "E:\Downloads\PyCraft\Release\Launch PyCraft.py", line 4, in <module>
+    import easygui
+ImportError: No module named easygui
+Traceback (most recent call last):
+  File "E:\Downloads\PyCraft\Release\Launch PyCraft.py", line 7, in <module>
+    import master
+  File "E:\Downloads\PyCraft\Release\master.py", line 33, in <module>
+    exec open("particles.py","r").read()
+  File "<string>", line 2, in <module>
+  File "C:\Python27\lib\site-packages\OpenGL\platform\baseplatform.py", line 402, in __call__
+    return self( *args, **named )
+  File "C:\Python27\lib\site-packages\OpenGL\error.py", line 232, in glCheckError
+    baseOperation = baseOperation,
+OpenGL.error.GLError: GLError(
+	err = 1282,
+	description = 'invalid operation',
+	baseOperation = glPointSize,
+	cArguments = (10,)
+)
+Traceback (most recent call last):
+  File "Launch PyCraft.py", line 7, in <module>
+    import master
+  File "/Volumes/TMDSTICK4/Downloads/PyCraft/Release/master.py", line 22, in <module>
+    from opensimplex.opensimplex import *
+ImportError: No module named opensimplex.opensimplex
+Traceback (most recent call last):
+  File "Launch PyCraft.py", line 24, in <module>
+    master.remote_main()
+  File "/Volumes/TMDSTICK4/Downloads/PyCraft/Release/master.py", line 426, in remote_main
+    getFile(world)
+  File "/Volumes/TMDSTICK4/Downloads/PyCraft/Release/master.py", line 116, in getFile
+    gens = os.listdir("generators/")
+OSError: [Errno 2] No such file or directory: 'generators/'
+Traceback (most recent call last):
+  File "E:\Downloads\PyCraft\Release\Launch PyCraft.py", line 4, in <module>
+    import easygui
+ImportError: No module named easygui
+Traceback (most recent call last):
+  File "E:\Downloads\PyCraft\Release\Launch PyCraft.py", line 7, in <module>
+    import master
+  File "E:\Downloads\PyCraft\Release\master.py", line 15, in <module>
+    import pygame
+ImportError: No module named pygame
