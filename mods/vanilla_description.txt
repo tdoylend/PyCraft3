@@ -1,3 +1,0 @@
-Vanilla means "standard."
-This is the usual, run-of-the-mill
-version of Pycraft.
