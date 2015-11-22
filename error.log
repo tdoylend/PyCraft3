@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\tdoylend\Desktop\Repos\PyCraft\Launch PyCraft.py", line 9, in <module>
+    master.remote_main()
+  File "C:\Users\tdoylend\Desktop\Repos\PyCraft\master.py", line 445, in remote_main
+    font_surface = pygame.image.load("fonts/ascii_square.png")
+pygame.error: Couldn't open fonts/ascii_square.png
+Traceback (most recent call last):
+  File "C:\Users\tdoylend\Desktop\Repos\PyCraft\Launch PyCraft.py", line 9, in <module>
+    master.remote_main()
+  File "C:\Users\tdoylend\Desktop\Repos\PyCraft\master.py", line 479, in remote_main
+    "text":font_tex,
+NameError: global name 'font_tex' is not defined

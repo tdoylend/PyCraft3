@@ -442,15 +442,15 @@ def remote_main():
     t2 = time()
     glTexImage2D( GL_TEXTURE_2D,0,4,width,height,0,GL_RGBA,GL_UNSIGNED_BYTE,texture_data)
     t1 = time()
-    font_surface = pygame.image.load("fonts/ascii_square.png")
-    font_data = pygame.image.tostring(font_surface, 'RGBA', True)
-    font_tex = glGenTextures(1)
-    glBindTexture(GL_TEXTURE_2D, font_tex)
-    glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST )
-    glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST )
-    glPixelStorei(GL_UNPACK_ALIGNMENT, 1)
-    wf, hf = font_surface.get_rect().size
-    glTexImage2D( GL_TEXTURE_2D,0,4,wf,hf,0,GL_RGBA,GL_UNSIGNED_BYTE,font_data)
+    #font_surface = pygame.image.load("fonts/ascii_square.png")
+    #font_data = pygame.image.tostring(font_surface, 'RGBA', True)
+    #font_tex = glGenTextures(1)
+    #glBindTexture(GL_TEXTURE_2D, font_tex)
+    #glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST )
+    #glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST )
+    #glPixelStorei(GL_UNPACK_ALIGNMENT, 1)
+    #wf, hf = font_surface.get_rect().size
+    #glTexImage2D( GL_TEXTURE_2D,0,4,wf,hf,0,GL_RGBA,GL_UNSIGNED_BYTE,font_data)
     sky_surface = pygame.image.load("skytop/skytop3.png")
     sky_data = pygame.image.tostring(sky_surface, 'RGB', True)
     sky_tex = glGenTextures(1)
@@ -476,7 +476,6 @@ def remote_main():
     tex_dict = {
         "blocks":block_tex,
         "water":w_tex,
-        "text":font_tex,
         "sky":sky_tex}
     
     glEnable(GL_LIGHTING)
