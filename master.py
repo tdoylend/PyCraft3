@@ -179,7 +179,7 @@ def blockSelector(block_index,block_tex):
                     if block_index == len(blocklist): block_index=0
 
 def remote_start(world,textures):
-    flying=True
+    flying=False
     carrying = BasicBlock
     block_i = 0
     thread_run = True
